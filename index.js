@@ -13,25 +13,25 @@ const getCard = () => {
   const highlight = chk.cyan;
 
   const output = `
-      ${chk.green.bold("Mostafa Gaafar (Gafi)")}
-      Software Engineer based in London
+      ${chk.green.bold("Chris Scharff")}
+      Solutions Engineer based in Austin, Texas
   
   
   ${linkTitle("Twitter")}   ${pale("https://")}twitter.com/${highlight(
-    "imgaafar"
+    "YesMyCircus"
   )}
   ${linkTitle("LinkedIn")}  ${pale("https://")}linkedin.com/in/${highlight(
-    "mostafamgaafar"
+    "chris-scharff"
   )}
-  ${linkTitle("Github")}    ${pale("https://")}github.com/${highlight("gaafar")}
-  ${linkTitle("Blog")}      ${pale("https://")}medium.com/${highlight(
-    "@mgaafar"
+  ${linkTitle("Github")}    ${pale("https://")}github.com/${highlight("cscharff")}
+  ${linkTitle("Cloudflare Community")}      ${pale("https://")}community.cloudflare.com/u/${highlight(
+    "cscharff"
   )}
   ${linkTitle("SO")}        ${pale(
     "https://"
-  )}stackoverflow.com/users/3716153/${highlight("gaafar")}
+  )}stackoverflow.com/users/9420561/${highlight("chris-scharff")}
   
-            ${pale("https://")}${highlight("gafi.dev")}
+            ${pale("https://")}${highlight("demo.dog")}
   `;
 
   return chk.green(
