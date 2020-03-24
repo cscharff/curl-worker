@@ -4,7 +4,7 @@ A Cloudflare worker template that intercepts requests from `curl` command and re
 
 ## Example
 
-`curl gafi.dev`
+`curl demo.dog`
 
 
 ![card example](https://raw.githubusercontent.com/gaafar/curl-worker/master/screenshot.png)
@@ -14,5 +14,5 @@ A Cloudflare worker template that intercepts requests from `curl` command and re
 To generate & deploy using [wrangler](https://github.com/cloudflare/wrangler)
 
 ```
-wrangler generate myApp https://github.com/gaafar/curl-worker
+wrangler generate myApp https://github.com/cscharff/curl-worker
 ```
